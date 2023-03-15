@@ -1,0 +1,59 @@
+body {
+  z-index: 0;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  background-image: url(app://local/Volumes/Entertain/photos/beau/common/88377350_p0.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(50%);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.theme-dark {
+  --background-primary: rgba(32, 32, 32, 0.193) !important;
+  --background-primary-alt: rgba(255, 255, 255, 0.202) !important;
+  --background-secondary: rgba(0, 0, 0, 0.3) !important;
+  --background-secondary-alt: none !important;
+  --background-modifier-cover: none !important;
+  --background-tertiary: none !important;
+}
+
+.theme-dark .cm-qualifier {
+  color: #fbff00;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.cm-contentContainer {
+  max-width: 100% !important;
+}
+
+.cm-content {
+  max-width: 100% !important;
+}
+
+.cm-line {
+  max-width: 100% !important;
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock {
+  color: #00ffff;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+  background-color: rgba(237, 237, 237, 0.193) !important;
+}

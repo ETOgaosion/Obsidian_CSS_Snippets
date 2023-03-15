@@ -1,0 +1,5 @@
+/* Modifies width of top bar */
+
+.workspace-tab-header > .workspace-tab-header-inner {
+    max-width: max-content;
+}
