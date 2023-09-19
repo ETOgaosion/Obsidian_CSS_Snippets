@@ -5,7 +5,7 @@ body {
 body::after {
   content: "";
   position: absolute;
-  background-image: url(app://local/Volumes/Entertain/photos/beau/common/88377350_p0.jpeg);
+  background-image: url(https://i.imgs.ovh/i/2023/09/12/65001a3b07866.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +19,7 @@ body::after {
 
 .theme-dark {
   --background-primary: rgba(32, 32, 32, 0.193) !important;
-  --background-primary-alt: rgba(255, 255, 255, 0.202) !important;
+  --background-primary-alt: rgba(255, 255, 255, 0) !important;
   --background-secondary: rgba(0, 0, 0, 0.3) !important;
   --background-secondary-alt: none !important;
   --background-modifier-cover: none !important;

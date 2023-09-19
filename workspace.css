@@ -3,3 +3,7 @@
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer {
     max-width: none;
 }
+
+.cm-s-obsidian .HyperMD-header.HyperMD-header-1:first-child {
+    margin-bottom: 0em !important;
+}
