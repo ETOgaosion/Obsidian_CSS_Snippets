@@ -14,4 +14,4 @@ Obsidian is Fantastic, this repo is just a reference, fork and practice your own
 
 place `*.css` in `vault/.obsidian/snippets/`, open the vault and go to appearence preference.
 
-all items tested on Mac, Obsidian 1.1.16.
+all items tested on Mac, Obsidian 1.4.13.
