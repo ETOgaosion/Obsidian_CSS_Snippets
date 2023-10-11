@@ -9,7 +9,7 @@ body::after {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: brightness(50%);
+  filter: brightness(100%);
   left: 0;
   top: 0;
   right: 0;

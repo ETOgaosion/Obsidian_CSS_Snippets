@@ -7,3 +7,11 @@
 .cm-s-obsidian .HyperMD-header.HyperMD-header-1:first-child {
     margin-bottom: 0em !important;
 }
+
+.workspace-tab-header-inner {
+    max-width: 100% !important;
+}
+
+.workspace-tab-header-inner-title {
+    text-align: center;
+}
