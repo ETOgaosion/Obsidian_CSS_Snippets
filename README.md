@@ -12,6 +12,16 @@ Obsidian is Fantastic, this repo is just a reference, fork and practice your own
 
 ## usage
 
-place `*.css` in `vault/.obsidian/snippets/`, open the vault and go to appearence preference.
+`cd` into `${vault}/.obsidian/` folder, clone the repository:
 
-all items tested on Mac, Obsidian 1.4.13.
+```sh
+git clone https://github.com/ETOgaosion/Obsidian_CSS_Snippets.git snippets
+```
+
+Make sure all `*.css` are in `vault/.obsidian/snippets/`, open the vault and go to appearence preference, in `Appearence/CSS Snippets` turn on all snippets, you will be comfortable~
+
+All items tested on Obsidian 1.5.0, with both Mac and Windows.
+
+## Copyrights
+
+We use a image that we do not have copyrights, please replace it to any of your background image instead!
