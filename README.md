@@ -18,7 +18,7 @@ Obsidian is Fantastic, this repo is just a reference, fork and practice your own
 git clone https://github.com/ETOgaosion/Obsidian_CSS_Snippets.git snippets
 ```
 
-Make sure all `*.css` are in `vault/.obsidian/snippets/`, open the vault and go to appearence preference, in `Appearence/CSS Snippets` turn on all snippets, you will be comfortable~
+Make sure all `*.css` are in `${vault}/.obsidian/snippets/`, open the vault and go to appearence preference, in `Appearence/CSS Snippets` turn on all snippets, you will be comfortable~
 
 All items tested on Obsidian 1.5.0, with both Mac and Windows.
 
