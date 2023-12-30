@@ -1,0 +1,36 @@
+body {
+    z-index: 0;
+}
+
+.eis-with-icons .nav-file-title:before {
+    opacity: 1;
+}
+
+.theme-light .cm-s-obsidian .cm-hmd-frontmatter {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+body.theme-light {
+    --code-normal: rgba(0, 0, 0, 0.8) !important;
+    --icon-color: rgba(0, 0, 0, 1) !important;
+    --text-faint: var(--text-muted);
+    --nav-item-background-active: rgba(var(--color-purple-rgb), 0.4); !important;
+    --nav-item-color: rgba(0, 0, 0, 1) !important;
+}
+
+.theme-dark .cm-s-obsidian .cm-hmd-frontmatter {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+body.theme-dark {
+    --divider-color: rgba(0, 0, 0, 0.3) !important;
+    --code-normal: rgba(255, 255, 255, 1) !important;
+    --text-normal: rgba(255, 255, 255, 1) !important;
+    --text-muted: rgba(255, 255, 255, 1) !important;
+    --nav-item-background-active: rgba(var(--color-purple-rgb), 0.4); !important;
+    --nav-item-background-hover: rgba(var(--color-purple-rgb), 0.4); !important;
+}
+
+.theme-dark .cm-qualifier {
+    color: #fbff00;
+}

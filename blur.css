@@ -1,0 +1,11 @@
+.markdown-source-view.mod-cm6 .cm-contentContainer {
+    backdrop-filter: blur(5px);
+}
+
+.nav-files-container {
+    backdrop-filter: blur(5px);
+}
+
+.workspace-leaf-content[data-type='outline'] .view-content {
+    backdrop-filter: blur(5px);
+}

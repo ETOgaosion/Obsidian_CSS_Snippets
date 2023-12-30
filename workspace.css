@@ -4,6 +4,14 @@
     max-width: none;
 }
 
+.markdown-source-view.mod-cm6 .cm-contentContainer {
+    max-width: none;
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-line {
+    max-width: none;
+}
+
 .cm-s-obsidian .HyperMD-header.HyperMD-header-1:first-child {
     margin-bottom: 0em !important;
 }
@@ -14,4 +22,59 @@
 
 .workspace-tab-header-inner-title {
     text-align: center;
+}
+
+/* Not Swift theme */
+.mod-vertical .workspace-tabs .workspace-tab-header-container {
+    height: 70px !important;
+}
+
+.mod-vertical .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner {
+    padding-top: 39px !important;
+}
+
+.workspace-tab-header-new-tab {
+    margin-top: 39px !important;
+}
+
+.workspace-tab-header-tab-list {
+    margin-top: 39px !important;
+}
+
+/* Set the maximum height for images in both Preview and Editor modes */
+/* .markdown-preview-view img, */
+.cm-s-obsidian img,
+.markdown-rendered img {
+    max-height: 100%;
+    /* Adjust this value to your preferred maximum height */
+    width: 100%;
+    /* Make images full width */
+    display: block;
+
+    object-fit: cover;
+    object-position: 50% 5%;
+    /* I didn't like a fully centered cover "preview" position -> offset by 5% from the top */
+    margin: 5px auto;
+    /* center image horizontally (if not 100% width) */
+}
+
+img {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+    /* very subtle styling; works in "Image Toolkit" plugin too */
+}
+
+.workspace-ribbon {
+    justify-content: space-between;
+}
+
+.cm-contentContainer {
+    max-width: 100% !important;
+}
+
+.cm-content {
+    max-width: 100% !important;
+}
+
+.cm-line {
+    max-width: 100% !important;
 }

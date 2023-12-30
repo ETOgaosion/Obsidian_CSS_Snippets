@@ -1,0 +1,108 @@
+body {
+    z-index: 0;
+    --divider-color: rgba(255, 255, 255, 0.3) !important;
+    --code-normal: rgba(0, 0, 0, 1) !important;
+    --icon-color: rgba(0, 0, 0, 1) !important;
+    --text-muted: var(--color-base-80);
+    --text-faint: var(--text-muted);
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    background-image: url(https://i.imgur.com/mY939Cr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(80%);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.eis-with-icons .nav-file-title:before {
+    opacity: 1;
+}
+
+.workspace-ribbon {
+    background-color: rgba(255, 255, 255, 0) !important;
+    justify-content: space-between;
+}
+
+/* Obsidianite theme */
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg:before {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+/* Not Swift theme */
+.mod-horizontal .workspace-tab-header-container {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.mod-root .workspace-tab-header-container {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container * {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.theme-light .nav-files-container {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.theme-light .cm-s-obsidian .cm-hmd-frontmatter {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.workspace-tabs .workspace-leaf {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.theme-light {
+    --background-primary: rgba(32, 32, 32, 0) !important;
+    --background-primary-alt: rgba(255, 255, 255, 0) !important;
+    --background-secondary: rgba(0, 0, 0, 0) !important;
+    --background-secondary-alt: none !important;
+    --background-modifier-cover: none !important;
+    --background-tertiary: none !important;
+}
+
+body.theme-light {
+    --nav-item-background-active: rgba(var(--color-purple-rgb), 0.4); !important;
+    --nav-item-color: rgba(0, 0, 0, 1) !important;
+}
+
+.theme-light .cm-qualifier {
+    color: #fbff00;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.cm-contentContainer {
+    max-width: 100% !important;
+}
+
+.cm-content {
+    max-width: 100% !important;
+}
+
+.cm-line {
+    max-width: 100% !important;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock {
+    color: #00ffff;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
