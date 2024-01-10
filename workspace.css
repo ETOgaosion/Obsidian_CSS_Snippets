@@ -78,3 +78,7 @@ img {
 .cm-line {
     max-width: 100% !important;
 }
+
+.workspace-split.mod-vertical.mod-root .workspace-tabs.mod-top .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header.is-active, .workspace-split.mod-vertical.mod-root .workspace-tabs.mod-top.mod-active .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header.is-active {
+    border-top: var(--divider-width) solid var(--color-base-50);
+}
